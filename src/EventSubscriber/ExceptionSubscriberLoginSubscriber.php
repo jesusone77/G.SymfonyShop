@@ -11,7 +11,7 @@ class ExceptionSubscriberLoginSubscriber implements EventSubscriberInterface
     {
         // ...
 
-        dd('here');
+        // dd('here');
     }
 
     public static function getSubscribedEvents(): array

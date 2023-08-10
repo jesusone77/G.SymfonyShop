@@ -8,6 +8,10 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
+    <div>
+        <h4>Hola {{user_name}}</h4>
+    </div>
+
 <div class="example-wrapper">
     <h1>Hello {{ controller_name }}! ✅</h1>
     <h5>Quien brg eres tu?</h5>
@@ -18,9 +22,9 @@
     </ul>
 </div>
 
+
 <form action="{{ path('app_logout') }}" method="post">
     {# ... #}
-
     <input type="submit" name="login">
 </form>
 
